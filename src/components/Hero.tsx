@@ -7,7 +7,7 @@ export default function Hero() {
         <motion.h1 
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{ duration: 0.8 }}
           className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 break-words"
         >
           Pradeep Natarajan
@@ -16,7 +16,7 @@ export default function Hero() {
         <motion.p 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+          transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8 px-2"
         >
           Associate Software Engineer | Front-End Specialist
@@ -25,7 +25,7 @@ export default function Hero() {
         <motion.p 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+          transition={{ duration: 0.8, delay: 0.4 }}
           className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-12"
         >
           Building high-performance, enterprise-grade web applications with Angular, TypeScript, and modern front-end technologies
@@ -34,7 +34,7 @@ export default function Hero() {
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
+          transition={{ duration: 0.8, delay: 0.6 }}
           className="flex gap-4 justify-center flex-wrap"
         >
           <motion.a 
